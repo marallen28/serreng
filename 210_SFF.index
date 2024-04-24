@@ -1,0 +1,100 @@
+<?php
+class animal{
+    protected $species;
+    protected $habitat;
+    protected $diet;
+
+    public function _ _construct($species,$habitat,$diet)
+    $this->species = $species;
+    $this->habitat = $habitat;
+    $this->diet = $diet;
+}
+
+public function getspecies(){
+ return $this -> species;
+}
+public function gethabitat(){
+    return $this -> habitat;
+}
+public function getdiet(){
+return $this -> diet;
+}
+
+
+public function setspecies(){
+ return $this -> species;
+}
+public function sethabitat(){
+    return $this -> habitat;
+}
+public function setdiet(){
+return $this -> diet;
+}
+public function makesound(){
+    return "the animal makes a sound";
+}
+
+
+class mammal extends animal{
+
+}
+    private $numberoflegs;
+    private $warmblooded;
+
+    public function  _ _construct($species,$habitat,$ diet,numberoflegs,$wormblooded){
+    parent:: _ _construct($species,$habitat,$diet){     
+    }
+    class mammal extends animal{
+        private $swingspan;
+        private $canfly;
+        private $beaklength;
+
+    }
+    public function makesound(){
+        echo "Animal sound/n";
+    }
+
+
+Instatiate object of mammal and bird classes
+$mammal= new mammal("lion",jungle"carnivore","3","true");
+$bird = new bird("owl",mountain","carnivore","true","long");
+
+$mammal->setspecies("lion");
+$mammal->sethabitat("jungle");
+$mammal->setdiet("carnivore);
+
+$bird->setspecies("owl");
+$bird->sethabitat("mountain");
+$setdiet("carnivore");
+
+echo "mammal information/n";
+echo "species/n";
+$mammal->getspecies()."\n";
+echo "habitat";
+$mammal->gethabitat()."\n";
+echo "diet";
+$mammal->grtdiet()."\n";
+echo "fur color";
+$mammalgetspecies()."\n";
+echo "numberoflegs";
+$mammal gethabitat()."\n";
+echo "iswarmblooded";
+
+echo "bird information/n";
+echo "species/n";
+$bird->getspecies()."\n";
+echo "habitat";
+$bird->gethabitat()."\n";
+echo "diet";
+$bird->grtdiet()."\n";
+echo "fur color";
+$birdgetspecies()."\n";
+echo "numberoflegs";
+$bird gethabitat()."\n";
+echo "iswarmblooded";
+?>
+
+
+
+
+
